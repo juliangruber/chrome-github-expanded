@@ -13,7 +13,7 @@ This is currently hard wired to expand diffs for files matching `*/node_modules/
 
 ## Known bugs
 
-On pull requests, you need to reload the page after you navigate to the files tab. This will be fixed soon.
+You sometimes need to reload the page to see the expansion. This will be fixed soon.
 
 ## License
 

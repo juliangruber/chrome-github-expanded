@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Chrome Github Expand",
+  "name": "Chrome Github Expanded",
   "description": "Expand diffs that GitHub mistakenly hides",
   "version": "1.0.0",
   "content_scripts": [

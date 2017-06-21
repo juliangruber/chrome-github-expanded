@@ -1,7 +1,10 @@
 'use strict'
 
+const debug = false
+
 document.addEventListener('DOMContentLoaded', () => {
   const loop = () => {
+    const start = debug && Date.now()
     const buttons = Array.from(document.querySelectorAll('.load-diff-button'))
     for (let button of buttons) {
       let header
@@ -15,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
     if (buttons.length) requestAnimationFrame(loop)
+    if (debug) console.log('%sms', Date.now() - start)
   }
   loop()
   window.addEventListener('pjax:complete', loop)

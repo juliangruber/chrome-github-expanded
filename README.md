@@ -11,9 +11,10 @@ This is currently hard wired to expand diffs for files matching `*/node_modules/
 3) Enable `Developer mode`
 4) Load this folder via `Load unpacked extension...`
 
-## Known bugs
+## Updates
 
-You sometimes need to reload the page to see the expansion. This will be fixed soon.
+To update the extension, pull the latest changes and then
+hit `Reload` in [chrome://extensions/](chrome://extensions/).
 
 ## License
 

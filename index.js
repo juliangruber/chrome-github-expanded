@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
     if (buttons.length) requestAnimationFrame(loop)
   }
   loop()
+  window.addEventListener('pjax:complete', loop)
 })

@@ -2,13 +2,12 @@
   "manifest_version": 2,
   "name": "Chrome Github Expanded",
   "description": "Expand diffs that GitHub mistakenly hides",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "content_scripts": [
     {
       "run_at": "document_start",
       "matches": [
-        "https://github.com/*/commit/*",
-        "https://github.com/*/files"
+        "https://github.com/*"
       ],
       "js": [
         "index.js"
